@@ -1,0 +1,92 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="60 40 300 340"
+    width="512"
+    height="512"
+    fill="none"
+>
+    <defs>
+        <!-- Gradiente azul -->
+        <linearGradient id="blueGradient"
+            x1="50"
+            y1="40"
+            x2="330"
+            y2="330"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#1677FF"/>
+            <stop offset="1" stop-color="#063FE8"/>
+        </linearGradient>
+
+        <!-- Gradiente verde -->
+        <linearGradient id="greenGradient"
+            x1="100"
+            y1="100"
+            x2="370"
+            y2="360"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#00E676"/>
+            <stop offset="1" stop-color="#00C95A"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Forma azul externa -->
+    <path
+        d="M52 52
+           H328
+           V99
+           H101
+           V331
+           H52
+           Z"
+        fill="url(#blueGradient)"
+    />
+
+    <!-- Forma verde externa -->
+    <path
+        d="M83 82
+           H364
+           V360
+           H83
+           V312
+           H316
+           V130
+           H83
+           Z"
+        fill="url(#greenGradient)"
+    />
+
+    <!-- Moldura branca central -->
+    <path
+        d="M82 82
+           H328
+           V330
+           H130
+           V312
+           H328
+           V331
+           H82
+           Z"
+        fill="#FFFFFF"
+    />
+
+    <!-- Área azul interna -->
+    <rect
+        x="101"
+        y="100"
+        width="212"
+        height="212"
+        fill="url(#blueGradient)"
+    />
+
+    <!-- L branco central -->
+    <path
+        d="M141 133
+           H180
+           V250
+           H270
+           V285
+           H141
+           Z"
+        fill="#FFFFFF"
+    />
+</svg>
